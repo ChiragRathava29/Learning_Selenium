@@ -18,6 +18,8 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import static com.ChiragRathava.ex07_WaitHelper.WaitHelpers.waitJVM;
+
 // How to find the elements
 // Selenium
 // ID, NAME, CLASS NAME,LinkText, PartialText, TAGName,
@@ -30,6 +32,7 @@ public class TestSelenium_17_Project_1 {
     public void test_negative_vwo_login() throws Exception {
 
         EdgeOptions edgeOptions = new EdgeOptions();
+        edgeOptions.addArguments("--incognito");
         edgeOptions.addArguments("--start-maximized");
 
         WebDriver driver = new EdgeDriver(edgeOptions);
@@ -59,6 +62,7 @@ public class TestSelenium_17_Project_1 {
         // data-qa="jobodapuxe"
         // >
 
+//        waitJVM(3000);
         Thread.sleep(2000);
 
         WebElement passwordInputBox = driver.findElement(By.name("password"));

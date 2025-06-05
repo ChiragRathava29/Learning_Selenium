@@ -19,6 +19,7 @@ public class TestSelenium_09 {
 
         Assert.assertEquals(driver.getCurrentUrl(), "https://www.google.com/");
 
+
         // AssertJ Validation
         assertThat(driver.getCurrentUrl()).isNotBlank().isNotNull().isEqualTo("https://www.google.com/");
 
