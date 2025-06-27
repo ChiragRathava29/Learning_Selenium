@@ -40,7 +40,7 @@ public class Lab30_SVG {
         driver.findElement(By.name("q")).sendKeys("macmini");
 
         // Step-2 -> Click on the svg element.
-        List<WebElement> svgElements = driver.findElements(By.xpath("//*[local-name()='svg']"));
+        List<WebElement> svgElements = driver.findElements(By.xpath("//*[local-name()='svg']")); //*[name()='svg']
         svgElements.get(0).click();
 
 //        waitJVM(3000);
