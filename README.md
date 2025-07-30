@@ -118,5 +118,5 @@ Before getting started, ensure you have the following installed:
 
 ## 📞 Contact
 For queries or discussions, reach out via:
-- LinkedIn: [Your Profile](https://linkedin.com/in/rathava-chirag)
-- GitHub: [Your GitHub](https://github.com/ChiragRathava)
+- LinkedIn: [Profile](https://linkedin.com/in/rathava-chirag)
+- GitHub: [GitHub](https://github.com/ChiragRathava)
